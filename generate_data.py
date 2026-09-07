@@ -2,9 +2,8 @@
 generate_data.py
 
 Generates a synthetic set of players with skill (Elo-style) ratings, standing
-in for real Dink Deck match history. Dink Deck currently only tracks names +
-anti-repeat logic (no ratings yet), so this simulates what a ratings table
-would look like once basic win/loss tracking is added.
+in for real match history until a real dataset with win/loss tracking is
+available.
 
 Usage:
     python generate_data.py --players 16 --seed 42 --out examples/players.json

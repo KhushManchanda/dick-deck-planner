@@ -1,15 +1,16 @@
-# Dink Deck Session Planner — Capstone Baseline
+# Pickleball Session Planner — Capstone Baseline
 
-A minimal, runnable baseline for planning pickleball tournament/open-play
+A minimal, runnable baseline for planning pickleball open-play/tournament
 sessions: given a pool of players (with skill ratings), a number of courts,
 and a number of rounds, it produces a round-by-round schedule of doubles
 matches that avoids double-booking, balances skill across courts, and tries
 to minimize repeated partnerships.
 
-This extends [Dink Deck](https://github.com/) (mobile-friendly pickleball
-team randomizer) from single-round randomization into multi-round session
-*planning* under real constraints (courts, time/rounds) — the actual capstone
-target ties this to search/CSP-based planning (CSE 574) in later phases.
+This baseline is deliberately rule-based and pickleball-specific (court size
+and team structure are hardcoded). The planned next phase is an LLM-based
+scheduler that can reason about the rules of other sports directly instead
+of needing hardcoded logic rewritten per sport — see the proposal for the
+full motivation and evaluation plan.
 
 ## 1. Dependencies
 
@@ -35,8 +36,8 @@ No installation step needed beyond having Python 3 available.
 
 ## 4. Running the baseline
 
-Step 1 — generate synthetic player data (stand-in for real Dink Deck match
-history, since Dink Deck does not yet track skill ratings):
+Step 1 — generate synthetic player data (stand-in for real match history and
+skill ratings, since no real dataset exists yet):
 
 ```bash
 python3 generate_data.py --players 16 --seed 42 --out examples/players.json
@@ -85,7 +86,15 @@ max_within_match_skill_gap: 916
 - Court groupings are skill-sorted deterministically each round, so with no
   randomization the same 4 players tend to land on the same court every
   round (only their 2v2 split rotates) — visible in this run as Round 4
-  duplicating Round 1 exactly. A future version should add randomized
-  restarts or real search over groupings, not just team splits.
+  duplicating Round 1 exactly.
 - Skill balance is "good enough" greedy, not optimal — `max_within_match_skill_gap`
   of 916 in this run shows some rounds are meaningfully lopsided.
+
+## Next phase
+
+The planned next step is an LLM-based scheduler that reasons about a given
+sport's rules (team size, court structure) directly, instead of relying on
+hardcoded rules like this baseline does. It will be benchmarked against this
+baseline on repeated-partnership rate, skill-balance gap, constraint
+satisfaction (no double-booking), and added cost/latency per LLM call. See
+the proposal (Sections 2, 6, 7) for details.

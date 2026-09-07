@@ -1,7 +1,7 @@
 """
 planner.py
 
-Baseline tournament-session planner for Dink Deck.
+Baseline pickleball session planner (rule-based, non-LLM).
 
 Problem: given a pool of players with skill ratings, a number of available
 courts, and a session time budget (rounds), produce a round-by-round
@@ -16,10 +16,11 @@ Baseline approach (deliberately simple, no LLM / external API):
   - Within each court's 4 players, try both possible 2v2 team splits and
     pick the one that reuses the fewest existing partnerships (from
     history), ties broken by skill balance between the two teams.
-  - This is a heuristic stand-in for the real planning problem (a
-    constraint-satisfaction / search problem well-suited to the CSE 574
-    planning toolkit) -- later phases can replace the greedy pass with an
-    actual CSP/local-search solver and compare against this baseline.
+  - Court size (4) and team structure (2v2) are hardcoded here, which is
+    fine for pickleball but doesn't generalize to other sports without
+    rewriting those rules. The planned next phase is an LLM-based scheduler
+    that can reason about a given sport's rules directly instead, and will
+    be benchmarked against this baseline (see proposal Sections 2, 6, 7).
 """
 import argparse
 import itertools
