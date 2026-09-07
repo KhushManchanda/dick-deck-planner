@@ -1,0 +1,500 @@
+{
+  "schedule": [
+    {
+      "round": 1,
+      "courts": [
+        {
+          "court": 1,
+          "team1": [
+            {
+              "id": 7,
+              "name": "Luna",
+              "skill": 1916
+            },
+            {
+              "id": 0,
+              "name": "Priya",
+              "skill": 1192
+            }
+          ],
+          "team2": [
+            {
+              "id": 14,
+              "name": "Jade",
+              "skill": 1469
+            },
+            {
+              "id": 8,
+              "name": "Omar",
+              "skill": 1454
+            }
+          ],
+          "team1_skill_sum": 3108,
+          "team2_skill_sum": 2923
+        },
+        {
+          "court": 2,
+          "team1": [
+            {
+              "id": 2,
+              "name": "Sam",
+              "skill": 1862
+            },
+            {
+              "id": 12,
+              "name": "Vera",
+              "skill": 1212
+            }
+          ],
+          "team2": [
+            {
+              "id": 3,
+              "name": "Xena",
+              "skill": 1515
+            },
+            {
+              "id": 4,
+              "name": "Nora",
+              "skill": 1442
+            }
+          ],
+          "team1_skill_sum": 3074,
+          "team2_skill_sum": 2957
+        },
+        {
+          "court": 3,
+          "team1": [
+            {
+              "id": 10,
+              "name": "Blake",
+              "skill": 1818
+            },
+            {
+              "id": 15,
+              "name": "Carter",
+              "skill": 1254
+            }
+          ],
+          "team2": [
+            {
+              "id": 9,
+              "name": "Quinn",
+              "skill": 1575
+            },
+            {
+              "id": 5,
+              "name": "Kai",
+              "skill": 1327
+            }
+          ],
+          "team1_skill_sum": 3072,
+          "team2_skill_sum": 2902
+        },
+        {
+          "court": 4,
+          "team1": [
+            {
+              "id": 6,
+              "name": "Rosa",
+              "skill": 1781
+            },
+            {
+              "id": 13,
+              "name": "Gus",
+              "skill": 1280
+            }
+          ],
+          "team2": [
+            {
+              "id": 11,
+              "name": "Milo",
+              "skill": 1721
+            },
+            {
+              "id": 1,
+              "name": "Farah",
+              "skill": 1306
+            }
+          ],
+          "team1_skill_sum": 3061,
+          "team2_skill_sum": 3027
+        }
+      ],
+      "sitting_out": []
+    },
+    {
+      "round": 2,
+      "courts": [
+        {
+          "court": 1,
+          "team1": [
+            {
+              "id": 7,
+              "name": "Luna",
+              "skill": 1916
+            },
+            {
+              "id": 8,
+              "name": "Omar",
+              "skill": 1454
+            }
+          ],
+          "team2": [
+            {
+              "id": 14,
+              "name": "Jade",
+              "skill": 1469
+            },
+            {
+              "id": 0,
+              "name": "Priya",
+              "skill": 1192
+            }
+          ],
+          "team1_skill_sum": 3370,
+          "team2_skill_sum": 2661
+        },
+        {
+          "court": 2,
+          "team1": [
+            {
+              "id": 2,
+              "name": "Sam",
+              "skill": 1862
+            },
+            {
+              "id": 4,
+              "name": "Nora",
+              "skill": 1442
+            }
+          ],
+          "team2": [
+            {
+              "id": 3,
+              "name": "Xena",
+              "skill": 1515
+            },
+            {
+              "id": 12,
+              "name": "Vera",
+              "skill": 1212
+            }
+          ],
+          "team1_skill_sum": 3304,
+          "team2_skill_sum": 2727
+        },
+        {
+          "court": 3,
+          "team1": [
+            {
+              "id": 10,
+              "name": "Blake",
+              "skill": 1818
+            },
+            {
+              "id": 5,
+              "name": "Kai",
+              "skill": 1327
+            }
+          ],
+          "team2": [
+            {
+              "id": 9,
+              "name": "Quinn",
+              "skill": 1575
+            },
+            {
+              "id": 15,
+              "name": "Carter",
+              "skill": 1254
+            }
+          ],
+          "team1_skill_sum": 3145,
+          "team2_skill_sum": 2829
+        },
+        {
+          "court": 4,
+          "team1": [
+            {
+              "id": 6,
+              "name": "Rosa",
+              "skill": 1781
+            },
+            {
+              "id": 1,
+              "name": "Farah",
+              "skill": 1306
+            }
+          ],
+          "team2": [
+            {
+              "id": 11,
+              "name": "Milo",
+              "skill": 1721
+            },
+            {
+              "id": 13,
+              "name": "Gus",
+              "skill": 1280
+            }
+          ],
+          "team1_skill_sum": 3087,
+          "team2_skill_sum": 3001
+        }
+      ],
+      "sitting_out": []
+    },
+    {
+      "round": 3,
+      "courts": [
+        {
+          "court": 1,
+          "team1": [
+            {
+              "id": 7,
+              "name": "Luna",
+              "skill": 1916
+            },
+            {
+              "id": 14,
+              "name": "Jade",
+              "skill": 1469
+            }
+          ],
+          "team2": [
+            {
+              "id": 8,
+              "name": "Omar",
+              "skill": 1454
+            },
+            {
+              "id": 0,
+              "name": "Priya",
+              "skill": 1192
+            }
+          ],
+          "team1_skill_sum": 3385,
+          "team2_skill_sum": 2646
+        },
+        {
+          "court": 2,
+          "team1": [
+            {
+              "id": 2,
+              "name": "Sam",
+              "skill": 1862
+            },
+            {
+              "id": 3,
+              "name": "Xena",
+              "skill": 1515
+            }
+          ],
+          "team2": [
+            {
+              "id": 4,
+              "name": "Nora",
+              "skill": 1442
+            },
+            {
+              "id": 12,
+              "name": "Vera",
+              "skill": 1212
+            }
+          ],
+          "team1_skill_sum": 3377,
+          "team2_skill_sum": 2654
+        },
+        {
+          "court": 3,
+          "team1": [
+            {
+              "id": 10,
+              "name": "Blake",
+              "skill": 1818
+            },
+            {
+              "id": 9,
+              "name": "Quinn",
+              "skill": 1575
+            }
+          ],
+          "team2": [
+            {
+              "id": 5,
+              "name": "Kai",
+              "skill": 1327
+            },
+            {
+              "id": 15,
+              "name": "Carter",
+              "skill": 1254
+            }
+          ],
+          "team1_skill_sum": 3393,
+          "team2_skill_sum": 2581
+        },
+        {
+          "court": 4,
+          "team1": [
+            {
+              "id": 6,
+              "name": "Rosa",
+              "skill": 1781
+            },
+            {
+              "id": 11,
+              "name": "Milo",
+              "skill": 1721
+            }
+          ],
+          "team2": [
+            {
+              "id": 1,
+              "name": "Farah",
+              "skill": 1306
+            },
+            {
+              "id": 13,
+              "name": "Gus",
+              "skill": 1280
+            }
+          ],
+          "team1_skill_sum": 3502,
+          "team2_skill_sum": 2586
+        }
+      ],
+      "sitting_out": []
+    },
+    {
+      "round": 4,
+      "courts": [
+        {
+          "court": 1,
+          "team1": [
+            {
+              "id": 7,
+              "name": "Luna",
+              "skill": 1916
+            },
+            {
+              "id": 0,
+              "name": "Priya",
+              "skill": 1192
+            }
+          ],
+          "team2": [
+            {
+              "id": 14,
+              "name": "Jade",
+              "skill": 1469
+            },
+            {
+              "id": 8,
+              "name": "Omar",
+              "skill": 1454
+            }
+          ],
+          "team1_skill_sum": 3108,
+          "team2_skill_sum": 2923
+        },
+        {
+          "court": 2,
+          "team1": [
+            {
+              "id": 2,
+              "name": "Sam",
+              "skill": 1862
+            },
+            {
+              "id": 12,
+              "name": "Vera",
+              "skill": 1212
+            }
+          ],
+          "team2": [
+            {
+              "id": 3,
+              "name": "Xena",
+              "skill": 1515
+            },
+            {
+              "id": 4,
+              "name": "Nora",
+              "skill": 1442
+            }
+          ],
+          "team1_skill_sum": 3074,
+          "team2_skill_sum": 2957
+        },
+        {
+          "court": 3,
+          "team1": [
+            {
+              "id": 10,
+              "name": "Blake",
+              "skill": 1818
+            },
+            {
+              "id": 15,
+              "name": "Carter",
+              "skill": 1254
+            }
+          ],
+          "team2": [
+            {
+              "id": 9,
+              "name": "Quinn",
+              "skill": 1575
+            },
+            {
+              "id": 5,
+              "name": "Kai",
+              "skill": 1327
+            }
+          ],
+          "team1_skill_sum": 3072,
+          "team2_skill_sum": 2902
+        },
+        {
+          "court": 4,
+          "team1": [
+            {
+              "id": 6,
+              "name": "Rosa",
+              "skill": 1781
+            },
+            {
+              "id": 13,
+              "name": "Gus",
+              "skill": 1280
+            }
+          ],
+          "team2": [
+            {
+              "id": 11,
+              "name": "Milo",
+              "skill": 1721
+            },
+            {
+              "id": 1,
+              "name": "Farah",
+              "skill": 1306
+            }
+          ],
+          "team1_skill_sum": 3061,
+          "team2_skill_sum": 3027
+        }
+      ],
+      "sitting_out": []
+    }
+  ],
+  "stats": {
+    "total_rounds": 4,
+    "total_matches": 16,
+    "distinct_partnerships": 24,
+    "repeated_partnerships": 8,
+    "avg_within_match_skill_gap": 368.1,
+    "max_within_match_skill_gap": 916
+  }
+}
