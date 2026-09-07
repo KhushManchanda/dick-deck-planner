@@ -28,7 +28,7 @@ so there is nothing to configure.
 ## 3. Setup
 
 ```bash
-git clone <this-repo-url>
+git clone https://github.com/KhushManchanda/dick-deck-planner
 cd dink-deck-planner
 ```
 
